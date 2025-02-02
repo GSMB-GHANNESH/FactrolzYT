@@ -19,6 +19,15 @@
             align-items: center;
             background-color:blue;
         }
+        html, body {
+        height: 100%; 
+        margin: 0;
+        }
+        .fullcontainer {
+        display: flex;
+        flex-direction: column;
+        min-height: 100%; 
+        }
         .hbutton{
             padding:10px;
         }
@@ -29,6 +38,7 @@
     </style>
 </head>
 <body>
+    <div class="fullcontainer">
     <div class="header">
     <header>
         <div class="hbutton"><a href=" https://www.youtube.com/channel/UC-w1ZsBJx0NUGp8EXO7vy0w" ><button>Factrolz Telugu</button></a> </div>
@@ -47,6 +57,7 @@
     </main>
     <footer style="background-color: black;color: white;text-align: center;">
         ©FACTROLZ  MEDIA  2025  all  rights  reserved
-        </footer>
+    </footer>
+    </div>
 </body>
 </html>
